@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+	background-color: #333;
+	color: white;
+	padding: 1em;
+  }
+  
+  .navbar nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 1em;
+  }
+  
+  .navbar nav ul li {
+	display: inline;
+  }
+  
+  .navbar nav ul li a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .container {
+	display: flex;
+	height: calc(100vh - 3em);
+  }
+  
+  .sidebar {
+	width: 200px;
+	background-color: #f4f4f4;
+	padding: 1em;
+  }
+  
+  .sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .sidebar ul li {
+	margin-bottom: 0.5em;
+  }
+  
+  .sidebar ul li a {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  .main-content {
+	flex-grow: 1;
+	padding: 1em;
+  }
